@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<title>
+GUESS THE NUMBER GAME
+</TITLE>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="game">
+
+<h3>
+WELCOME TO THE GAME!
+
+</H3>
+<h1>
+Guess the Number!
+</h1>
+<p id="instructions">I'm thinking of a number between 1-100.</p>
+
+
+
+
+<button class="level-button" onclick="easy()">Easy</button>
+<button class="level-button" onclick="medium()">Medium</button>
+<button class="level-button" onclick="hard()">Hard</button>
+
+
+
+<input type="number" id="guess" placeholder="Enter your Guess">
+<button class="guess" onclick="guess()">check</button>
+<p id="attempts">Attempts: 0</p>
+<p id="message"></p>
+<button class="again" onclick="restartGame()">PLAY AGAIN</button>
+
+</div>
+<script src="script.js"></script>
+</BODY>
+</HTML>
